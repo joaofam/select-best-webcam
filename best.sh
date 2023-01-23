@@ -1,5 +1,4 @@
 #!/bin/bash
-# Make default camera /dev/video0 point to the "best" camera present.
 
 if [ -h /dev/video0 ]; then
    sudo rm /dev/video0   # not first run: remove our old symlink
